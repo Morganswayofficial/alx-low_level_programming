@@ -21,13 +21,13 @@ int main(void)
 
 			if ((c != '9') || (c == '9' && i != '9'))
 			{
-				putchar(',');
-				putchar(' ');
+				printf(',');
+				printf(' ');
 			}
 		}
 	}
 
-	putchar('\n');
+	printf('\n');
 
 	return (0);
 }
