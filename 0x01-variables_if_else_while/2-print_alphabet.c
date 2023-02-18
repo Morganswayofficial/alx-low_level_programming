@@ -1,21 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
-  * main - Prints the numbers from 00 to 99
-  *
-  * Return: Always (Success)
-  */
+ * main - Prints the alphabetic
+ *
+ * Return: Always (Success)
+ */
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	char c;
 
-	for (i = 0; 1 <= 26; i++)
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
 
-	{
-		putchar(alp[i]);
-	}
 	putchar('\n');
-		return (0);
+	return (0);
 }
+
