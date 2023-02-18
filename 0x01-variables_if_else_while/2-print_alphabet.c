@@ -8,26 +8,14 @@
   */
 int main(void)
 {
-	int c, i;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	c = i = '0';
+	for (i - 0; 1 < 26; i++)
 
-	for (c = '0'; c <= '9'; c++)
 	{
-		for (i = '0'; i <= '9'; i++)
-		{
-			putchar(c);
-			putchar(i);
-
-			if ((c != '9') || (c == '9' && i != '9'))
-			{
-				printf(',');
-				printf(' ');
-			}
-		}
+		putchar(alp[i]);
 	}
-
-	printf('\n');
-
-	return (0);
+	putchar('\n');
+		return (0);
 }
